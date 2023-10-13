@@ -1,0 +1,23 @@
+
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "types": ["node", "jest"],
+    "skipLibCheck": true
+  },
+  "watchOptions": {
+    "watchFile": "fixedPollingInterval", "watchDirectory": "fixedPollingInterval", "fallbackPolling": "fixedinterval"
+  },
+  "exclude": ["node_modules", "dist"]
+}
+
